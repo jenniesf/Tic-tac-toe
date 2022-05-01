@@ -17,7 +17,6 @@ function boxClick (box) {
     addToBoard(clickedBox)         
 }
 
-
 function addToBoard (clickedBox) {
     if (currentPlayer == 'x') {
         clickedBox.style.color = 'rgb(33, 124, 10)'
@@ -48,19 +47,6 @@ let changePlayer = {
         }
     }
 }
-
-
-    // OOP EXAMPLE
-// let seriousBusinessPerson = {
-//     hourlyRate: 250,
-//     hours: 160,
-//     taxRate: .40, //changed
-//     calculateProfit: function() {
-//       return this.hourlyRate * this.hours * (1 - this.taxRate)
-//     }
-// }
-// console.log( seriousBusinessPerson.calculateProfit() )
-
 
 function checkWinner (currentPlayer) {
     if (  (box0.innerHTML === currentPlayer && box1.innerHTML === currentPlayer && box2.innerHTML === currentPlayer) || 
