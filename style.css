@@ -1,0 +1,45 @@
+body {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: rgba(66, 110, 211, 0.831);
+   }
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    color: rgb(33, 124, 10);
+    font-size: 2rem;
+}
+
+/* ********* */
+/* GAMEBOARD */
+/* ********* */
+#game-board{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.space {
+    border: 2px solid rgb(33, 124, 10);
+    border-radius: 5px;
+    margin: .5px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.letter-row {
+    display: flex;
+}
+
