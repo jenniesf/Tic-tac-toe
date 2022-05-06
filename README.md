@@ -1,5 +1,5 @@
 # ⭐  Tic-tac-toe
-<i>Check it out</i>:        
+<i>Visit my site</i>:        
 https://tictactoe-gamef.netlify.app
 
 Popular 2-player Tic-tac-toe game
