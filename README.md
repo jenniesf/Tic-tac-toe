@@ -1,4 +1,4 @@
-# Tic-tac-toe
+# ⭐  Tic-tac-toe
 <i>Check it out</i>:        
 https://tictactoe-gamef.netlify.app
 
