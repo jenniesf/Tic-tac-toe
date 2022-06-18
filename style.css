@@ -1,11 +1,13 @@
 body {
     font-family: 'Permanent Marker', cursive;
     text-align: center;
+    background-color: rgb(247, 244, 208);
 }
 
 h1, h2, h3 {
-    color: rgba(66, 110, 211, 0.831);
-   }
+    /* color: rgba(1, 7, 18, 0.831); */
+    color: rgb(23, 37, 67);
+}
 
 h1 {
     font-size: 3rem;
@@ -16,6 +18,9 @@ h2 {
     font-size: 2rem;
 }
 
+#reset{
+    cursor: pointer;
+}
 /* ********* */
 /* GAMEBOARD */
 /* ********* */
@@ -23,12 +28,33 @@ h2 {
     display: flex;
     align-items: center;
     flex-direction: column;
+    border: solid 30px rgba(240,180,135,1);
+    border-top: solid 50px rgba(240,180,135,1);
+    border-bottom: solid 50px rgba(240,180,135,1);
+    box-shadow: inset -1px 1px 7px;
+    /* background: rgba(240,180,135,1); */
+    background-color: rgb(128, 183, 109);
+    box-shadow: inset -1px 1px 7px rgba(0,0,0,.2), 
+            inset 1px -1px 7px rgba(0,0,0,.2), 1px 12px 5px rgba(0,0,0,.4), 
+            4px 3px 8px rgba(0,0,0,.4), 5px 10px 10px rgba(0,0,0,.2), 
+            -5px 10px 10px rgba(0,0,0,.4);
+    border-radius: 10px;
+    width: fit-content; 
+    margin: auto;
+    background: rgba(40,40,40,1)
+    -webkit-radial-gradient(center, rgba(40,80,60,1), rgba(0,20,20,.6));
+    background: rgba(40,40,40,1)
+    -moz-radial-gradient(center, rgba(40,80,60,1), rgba(0,20,20,.6));
+    background: rgba(40,40,40,1)
+    -ms-radial-gradient(center, rgba(40,80,60,1), rgba(0,20,20,.6));
+    background: rgba(40,40,40,1)
+    radial-gradient(center, rgba(40,80,60,1), rgba(0,20,20,.6));
 }
 
 .space {
-    border: 2px solid rgb(33, 124, 10);
-    border-radius: 5px;
-    margin: .5px;
+    border: 1px solid white;
+    border-radius: 0px;
+    margin: 0px;
     font-size: 2.5rem;
     font-weight: 700;
     height: 5rem;
@@ -37,6 +63,9 @@ h2 {
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
+    /* background-color: rgb(128, 183, 109); */
+	/* background: -webkit-linear-gradient(to right, #eed5d5, #f6aaaa);
+	background: linear-gradient(to right, #eed5d5, #f6aaaa); */
 }
 
 .letter-row {
