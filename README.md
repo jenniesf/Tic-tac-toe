@@ -41,7 +41,8 @@ When all 9 squares are full, the game is over. If no player has 3 marks in a row
 Player 1 clicks on a box to enter their 'game piece', then Player 2.
 
 <h3 id="whatILearned">What I Learned</h3> 
-I learned about CSS styling and adding objects to the DOM.
+I learned about CSS styling and adding objects to the DOM to create a gameboard.
+I practiced algorithms and problem solving skills. 
 
 <h3 id="optimizations">Optimizations:</h3>
 I would like to provide the following future features/optimizations:
